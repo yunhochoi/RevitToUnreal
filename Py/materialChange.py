@@ -1,6 +1,5 @@
 import unreal
 
-
 def replaceMaterial(original, replacement) :
 
     print "hello"
@@ -9,4 +8,4 @@ def replaceMaterial(original, replacement) :
     unreal.EditorAssetLibrary.consolidate_assets(replacement_asset,[original_asset])
 
 # Game: Content folder
-replaceMaterial('/Game/Technical_school/Materials/Glass','/Game/Materials/M_Glass_Inst')
+replaceMaterial('/Game/Technical_school-current_m-3DView-From_Parking_Area/Materials/Glass','/Game/Materials/M_Glass_Inst')
