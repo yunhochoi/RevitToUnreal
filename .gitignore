@@ -75,3 +75,9 @@ DerivedDataCache/*
 
 # Starter Content
 Content/StarterContent/*
+
+# Recorded Video
+RecordedVideo/*
+
+# Packages
+Package/*
